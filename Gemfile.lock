@@ -92,6 +92,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.11.2)
+    mysql2 (0.3.20)
     net-http-digest_auth (1.4)
     net-http-persistent (2.9.4)
     net-scp (1.0.4)
@@ -99,7 +100,6 @@ GEM
     net-ssh (3.0.2)
     nokogiri (1.5.11)
     ntlm-http (0.1.1)
-    pg (0.18.4)
     polyglot (0.3.5)
     pry (0.10.3)
       coderay (~> 1.1.0)
@@ -190,7 +190,7 @@ DEPENDENCIES
   jquery-rails
   jquery-validation-rails
   mechanize
-  pg
+  mysql2 (~> 0.3.20)
   pry
   rails (= 4.0.1)
   rails_12factor
